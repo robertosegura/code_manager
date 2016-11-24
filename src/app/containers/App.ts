@@ -2,9 +2,9 @@ import {Component} from '@angular/core';
 
 @Component({
   selector: 'fountain-app',
-  template: require('./hello.html')
+  template: require('./App.html')
 })
-export class HelloComponent {
+export class AppComponent {
   public hello: string;
 
   constructor() {
