@@ -5,6 +5,7 @@ import {routing, RootComponent} from './routes';
 import {AppComponent} from './containers/App';
 import {HeaderComponent} from './components/Header/HeaderComponent';
 import {FooterComponent} from './components/Footer/FooterComponent';
+import {ProjectListComponent} from './components/ProjectList/ProjectList';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import {FooterComponent} from './components/Footer/FooterComponent';
     RootComponent,
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectListComponent
   ],
   bootstrap: [RootComponent]
 })
